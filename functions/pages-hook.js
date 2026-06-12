@@ -68,7 +68,7 @@ export async function onRequest({ request }) {
     const forwardInit = {
       method: request.method,
       headers: filterRequestHeaders(request.headers),
-      redirect: 'manul',
+      redirect: 'manual',
     };
 
     // GET/HEAD 不能带 body
